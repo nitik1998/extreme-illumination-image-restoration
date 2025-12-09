@@ -28,9 +28,14 @@ git clone https://github.com/YOUR_USERNAME/multi-exposure-enhancement.git
 cd multi-exposure-enhancement
 pip install -r requirements.txt
 ```
+### 📂 Dataset Reference
+
+This project follows the dataset structure from **Exposure Correction (Afifi et al.)**:  
+🔗 https://github.com/mahmoudnafifi/Exposure_Correction#dataset
+
 
 ### Dataset Structure
-
+For the project, we have use validation as test set
 ```
 Dataset/
 ├── train/
@@ -134,19 +139,30 @@ patience = 5             # Early stopping
 If you use this code in your research, please cite:
 
 ```bibtex
-@misc{multi-exposure-enhancement,
-  author = {Your Name},
-  title = {Multi-Exposure Image Enhancement Benchmark},
+@misc{extreme_illumination_unet_2025,
+  author = {Nitik Jain},
+  title = {Extreme Illumination Image Restoration using Lightweight U-Net},
   year = {2025},
   publisher = {GitHub},
-  url = {https://github.com/YOUR_USERNAME/multi-exposure-enhancement}
+  url = {https://github.com/nitik1998/extreme-illumination-image-restoration}
 }
+
 ```
 
 ## 🙏 Acknowledgments
 
-- [Zero-DCE++](https://github.com/Li-Chongyi/Zero-DCE_extension) by Li et al.
-- U-Net architecture from Ronneberger et al.
+- **Learning to See in the Dark (SID)**  
+  https://cchen156.github.io/SID.html
+
+- **Zero-DCE++ — Low-Light Enhancement**  
+  https://github.com/Li-Chongyi/Zero-DCE_extension
+
+- **Exposure Correction Dataset (Afifi et al.)**  
+  https://github.com/mahmoudnafifi/Exposure_Correction#dataset
+
+- **U-Net Architecture**  
+  Ronneberger, Fischer, and Brox (2015)
+
 
 ## 📄 License
 
@@ -158,4 +174,4 @@ Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
 ## 📧 Contact
 
-For questions or issues, please open a GitHub issue or contact [your.email@example.com](mailto:your.email@example.com)
+For questions or issues, please open a GitHub issue or contact [nitik1998@gmail.com](mailto:nitik1998@gmail.com)
