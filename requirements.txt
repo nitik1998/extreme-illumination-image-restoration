@@ -1,0 +1,22 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0
+
+# Metrics
+lpips>=0.1.4
+
+# Utilities
+tqdm>=4.65.0
+matplotlib>=3.7.0
+pyyaml>=6.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
