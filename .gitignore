@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Setup scripts (you don't need these on GitHub)
+setup_repo.py
+create_python_repo.py
+
+# Dataset files (too large for GitHub)
+Dataset/
+*.zip
+*.tar.gz
+data/raw/
+data/processed/
+
+# Literature and documents (keep locally)
+Literature Review/
+*.pdf
+
+# Results and outputs
+results/
+outputs/
+checkpoints/*.pth
+checkpoints/*.pt
+logs/
+wandb/
+runs/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+notebooks/*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
